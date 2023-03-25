@@ -4,13 +4,7 @@ import searchIcon from "./search.svg";
 import "./App.css";
 
 const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=a70530df";
-const movie1 = {
-  Title: "Italian Spiderman",
-  Year: "2007",
-  imdbID: "tt2705436",
-  Type: "movie",
-  Poster: "N/A",
-};
+
 
 const App = () => {
   const [movies, setMovies] = useState([]);
